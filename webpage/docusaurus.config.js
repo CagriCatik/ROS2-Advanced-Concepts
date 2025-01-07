@@ -10,8 +10,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'ROS 2 Intermediate Techniques',
+  tagline: 'Learn how to implement ROS 2 Actions, Lifecycle Nodes, Executors, and Components',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -76,7 +76,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: '',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
@@ -84,9 +84,33 @@ const config = {
         items: [
           {
             type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
+            sidebarId: 'introSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Introduction',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'actionsSidebar',
+            position: 'left',
+            label: 'Actions',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'lifecycleNodesSidebar',
+            position: 'left',
+            label: 'Lifecycle Nodes',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'executorsSidebar',
+            position: 'left',
+            label: 'Executors',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'componentsSidebar',
+            position: 'left',
+            label: 'Components',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {

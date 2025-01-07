@@ -3,30 +3,31 @@ import Heading from '@theme/Heading';
 import styles from './styles.module.css';
 
 const FeatureList = [
+
   {
-    title: 'What is ROS 2?',
+    title: 'ROS 2 Actions and Lifecycle Nodes',
     description: (
       <>
-        ROS 2 (Robot Operating System 2) is an open-source framework that provides tools and libraries to build and control robots. 
-        It introduces modern middleware and communication protocols, making it an ideal choice for robotics development.
+        Write complete Action servers and clients, define Action goals, and implement Action policies. 
+        Use Lifecycle Nodes to create an initialization sequence and understand best practices for node lifecycle management.
       </>
     ),
   },
   {
-    title: 'Why Choose ROS 2?',
+    title: 'Executors and Components',
     description: (
       <>
-        ROS 2 offers cross-platform support, real-time capabilities, and improved security compared to its predecessor. 
-        It’s designed for both beginners and advanced developers looking to create scalable and robust robotic systems.
+        Learn how to use single-threaded and multi-threaded executors. 
+        Create ROS 2 components to load at runtime and combine multiple nodes in one executable for improved efficiency.
       </>
     ),
   },
   {
-    title: 'Getting Started',
+    title: 'Hands-On Learning',
     description: (
       <>
-        Start with the basics by installing ROS 2 on your system, exploring core concepts like nodes, topics, services, and actions, 
-        and building your first publisher-subscriber example. The learning curve is friendly for beginners.
+        Practice with extra challenges and projects while discovering more ROS 2 command-line tools. 
+        Understand the spin mechanism, improve your ROS 2 knowledge, and build robust robotic systems.
       </>
     ),
   },
