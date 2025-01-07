@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="rss.xsl"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>ROS 2 Intermediate Techniques Blog</title>
+        <link>https://CagriCatik.github.io/ROS2-Advanced-Concepts/blog</link>
+        <description>ROS 2 Intermediate Techniques Blog</description>
+        <lastBuildDate>Wed, 08 Jan 2025 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>en</language>
+        <item>
+            <title><![CDATA[ROS 2 Intermediate Techniques (Because Basic Wasn’t Enough)]]></title>
+            <link>https://CagriCatik.github.io/ROS2-Advanced-Concepts/blog/mastering-ros2-with-irony</link>
+            <guid>https://CagriCatik.github.io/ROS2-Advanced-Concepts/blog/mastering-ros2-with-irony</guid>
+            <pubDate>Wed, 08 Jan 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Are you ready to tackle the "intermediate" level of ROS 2? Because clearly, "basic" was just too easy for you, right? Welcome to the land of Actions, Lifecycle Nodes, Executors, and Components—where the real fun begins. Or so they say.]]></description>
+            <content:encoded><![CDATA[<p>Are you ready to tackle the "intermediate" level of ROS 2? Because clearly, "basic" was just too easy for you, right? Welcome to the land of Actions, Lifecycle Nodes, Executors, and Components—where the real fun begins. Or so they say.</p>
+<p>Let’s break it down objectively (with a pinch of sarcasm).</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="ros-2-actions-and-lifecycle-nodes">ROS 2 Actions and Lifecycle Nodes<a href="https://cagricatik.github.io/ROS2-Advanced-Concepts/blog/mastering-ros2-with-irony#ros-2-actions-and-lifecycle-nodes" class="hash-link" aria-label="Direct link to ROS 2 Actions and Lifecycle Nodes" title="Direct link to ROS 2 Actions and Lifecycle Nodes">​</a></h2>
+<p>If you thought writing servers and clients was hard, wait until you define Action goals and implement policies. Oh, and don't forget those Lifecycle Nodes—you know, the ones that turn "initialization sequences" into your new best friend. Best practices? Sure, we’ll pretend to follow them.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="executors-and-components">Executors and Components<a href="https://cagricatik.github.io/ROS2-Advanced-Concepts/blog/mastering-ros2-with-irony#executors-and-components" class="hash-link" aria-label="Direct link to Executors and Components" title="Direct link to Executors and Components">​</a></h2>
+<p>Why stick to single-threaded executors when you can juggle multi-threaded ones instead? And components—because obviously, loading nodes at runtime wasn’t challenging enough. Let’s throw in combining multiple nodes in one executable for "efficiency." Spoiler: you'll spend hours debugging why it doesn't work as planned.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="hands-on-learning">Hands-On Learning<a href="https://cagricatik.github.io/ROS2-Advanced-Concepts/blog/mastering-ros2-with-irony#hands-on-learning" class="hash-link" aria-label="Direct link to Hands-On Learning" title="Direct link to Hands-On Learning">​</a></h2>
+<p>What’s better than challenges? Extra challenges! And projects! Discover ROS 2 command-line tools you didn't even know you needed, but suddenly can’t live without. Oh, and the infamous "spin mechanism"—because every roboticist loves a good mystery. All this just to build "robust" robotic systems.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="why-bother">Why Bother?<a href="https://cagricatik.github.io/ROS2-Advanced-Concepts/blog/mastering-ros2-with-irony#why-bother" class="hash-link" aria-label="Direct link to Why Bother?" title="Direct link to Why Bother?">​</a></h2>
+<p>Objectively speaking, ROS 2's intermediate techniques are useful. Ironically, they’re also a perfect way to question your career choices while mastering robotics. If you’ve made it this far, you’re clearly committed—or maybe just stubborn. Either way, you’ll come out of this course with more skills, more confidence, and probably more frustration.</p>
+<hr>]]></content:encoded>
+            <category>ros2</category>
+            <category>robotics</category>
+            <category>actions</category>
+            <category>lifecycle-nodes</category>
+            <category>executors</category>
+            <category>components</category>
+        </item>
+    </channel>
+</rss>

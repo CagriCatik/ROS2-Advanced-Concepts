@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[7472],{5513:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"ROS 2 Intermediate Techniques (Because Basic Wasn\u2019t Enough)","permalink":"/ROS2-Advanced-Concepts/blog/mastering-ros2-with-irony","unlisted":false,"date":"2025-01-08T00:00:00.000Z"}]}')}}]);
